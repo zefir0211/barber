@@ -1,0 +1,68 @@
+.header {
+    background: url(/images/pexels-thgusstavo-santana-1813272\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    max-width: 1920px;
+    min-width: 1280px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+.main-container {
+    max-width: 1920px;
+    min-width: 1280px;
+    height: 951px;
+    margin: 0 auto;
+    
+}
+
+.main-container > p, h1 {
+    margin: 0;
+    display: block;
+}
+
+.main-container:first-child {
+    padding-top: 160px;
+}
+
+.main-text {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.main-heading {
+    font-style: italic;
+    font-size: 188px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.main-heading + .main-text {
+    margin-bottom: 60px;
+}
+
+.main-text-info {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 69px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.main-container > .main-text-info {
+    margin-bottom: 30px;
+}
+
+.main-container > .main-text-info:last-child {
+    margin-bottom: 0;
+}

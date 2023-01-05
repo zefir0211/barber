@@ -1,0 +1,44 @@
+body {
+    font-family: 'Rosario', 'Tahoma',sans-serif;
+}
+
+.header-conteiner {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1920px;
+    height: 129px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: block;
+    height: 129px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-list {
+    display: block;
+    margin-right: 50px;
+}
+
+.header-list:last-child {
+    margin: 0;
+    margin-right: 25px;
+}
+
+.header-link {
+    font-style: italic;
+font-size: 36px;
+line-height: 1.22;
+color: #FFFCFC;
+
+text-decoration: none;
+}

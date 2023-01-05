@@ -1,0 +1,48 @@
+li {
+    list-style-type: none;
+}
+
+.header {
+        background: url(/images/Services-fon.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: right;
+        max-width: 1920px;
+        min-width: 1280px;
+        height: 1080px;
+        margin: 0 auto;
+}
+
+.gallery-content {
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 975px;
+    margin: 0;
+    /* margin-top: 26px;
+    margin-left: 70px; */
+    padding: 0;
+}
+
+.services-text {
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 1.2;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+margin-top: 12px;
+margin-bottom: 52px;
+}
+
+.services-item:nth-child(2n+1) {
+    margin-right: 120px;
+}
