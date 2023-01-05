@@ -42,3 +42,7 @@ color: #FFFCFC;
 
 text-decoration: none;
 }
+
+.header-navigation>.header-list:hover .header-link {
+    color: blue;
+}
