@@ -1,0 +1,124 @@
+.header {
+    background: url(../images/appointment-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    max-width: 1920px;
+    min-width: 1280px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+.appointment-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.2;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.appointment-form {
+    margin-bottom: 50px;
+}
+
+.appointment-container {
+    width: 1445px;
+    margin: 0 auto;
+}
+
+.appointment-form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.appoitment-input {
+    width: 625px;
+    height: 95px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    padding-left: 25px;
+    font-size: 48px;
+
+    margin-bottom: 50px;
+}
+
+.appoitment-input:last-child {
+    margin: auto;
+}
+
+.appoitment-input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.appoitment-btn {
+    width: 478px;
+    height: 95px;
+    background-color: #A3530A;
+    display: block;
+    box-shadow: 0px 4px 4px rgba(0,0,0,.15);
+    border: 4px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.appoitment-btn-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.appointment-text-info {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.appoitment-btn-down {
+    width: 300px;
+    height: 80px;
+    background-color: #A3530A;
+    display: block;
+    box-shadow: 0px 4px 4px rgba(0,0,0,.15);
+    border: 4px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.appoitment-btn-text-down {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: #FFFFFF;
+}
