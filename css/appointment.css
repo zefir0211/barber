@@ -53,6 +53,10 @@
     margin-bottom: 50px;
 }
 
+.appoitment-input:hover, .appoitment-input:focus {
+    border: 3px solid tomato;
+}
+
 .appoitment-input:last-child {
     margin: auto;
 }
