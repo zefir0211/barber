@@ -1,7 +1,6 @@
 .header {
     max-width: 1920px;
     min-width: 1280px;
-    height: 1080px;
     margin: 0 auto;
 }
 
@@ -50,6 +49,12 @@
 
     border: none;
     margin-bottom: 50px;
+    transition: color 300ms linear, border 300ms linear;
+}
+
+.contact-us-input:hover, .contact-us-input:focus {
+    color: tomato;
+    border: 1px solid tomato;
 }
 
 .contact-us-comment {
@@ -62,6 +67,12 @@
     font-size: 48px;
     border: none;
     background-color: white;
+    transition: color 300ms linear, border 300ms linear;
+}
+
+.contact-us-comment:hover, .contact-us-comment:focus {
+    color: tomato;
+    border: 1px solid tomato;
 }
 
 /* .mapouter {
@@ -74,6 +85,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    margin: auto;
 }
 
 .contacts-container {
@@ -111,6 +123,11 @@
 
     color: #000000;
     text-decoration: none;
+    transition: color 300ms linear;
+}
+
+.link-contact:hover, .link-contact:focus {
+    color: tomato;
 }
 
 .address-text {
@@ -194,4 +211,18 @@
     text-align: center;
     text-decoration: none;
     color: #000000;
+    transition: color 300ms linear;
+}
+
+.internet-link:hover, .internet-link:focus {
+    color: tomato;
+}
+
+.internet-icon-svg {
+    fill: #000000;
+    margin-right: 5px;
+    transition: fill 300ms linear;
+}
+.internet-link:hover .internet-icon-svg, .internet-link:focus .internet-icon-svg {
+    fill: tomato;
 }

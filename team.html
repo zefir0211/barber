@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="./css/modern-normalize.css"> 
     <link rel="stylesheet" href="./css/team.css"> 
     <link rel="stylesheet" href="./css/navigation.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>DAPPER BULLY</title>
 </head>
 <body>
     <header class="header">
         <div class="header-conteiner">
-            <a class="header-logo" href="index.html"><img src="./images/klipartz-1.jpg" alt="logo"></a>
+            <a class="header-logo" href="index.html"><img src="./images/klipartz-1.jpg" alt="logo"  data-aos="fade-down"></a>
             <nav class="">
                 <ul class="header-navigation">
                     <li class="header-list"><a class="header-link" href="./appointment.html">Appointment</a></li>
@@ -34,24 +35,28 @@
             
                 <ul class="team-list">
                     <li class="team-item">
-                        <img class="foto" src="./images/team-1.jpg" alt="" width="400" height="677">
+                        <img class="foto" src="./images/team-1.jpg" alt="" width="400" height="677" data-aos="flip-left">
                         <p class="top-text">Meredith</p>
                     </li>
                     <li class="team-item">
-                        <img src="./images/team-2.jpg" alt="" width="400" height="677">
+                        <img src="./images/team-2.jpg" alt="" width="400" height="677" data-aos="flip-left">
                         <p class="top-text">Jason</p>
                     </li>
                     <li class="team-item">
-                        <img src="./images/team-3.jpg" alt="" width="400" height="677">
+                        <img src="./images/team-3.jpg" alt="" width="400" height="677" data-aos="flip-right">
                         <p class="top-text">Ryan</p>
                     </li>
                     <li class="team-item">
-                        <img src="./images/team-4.jpg" alt="" width="400" height="677">
+                        <img src="./images/team-4.jpg" alt="" width="400" height="677" data-aos="flip-right">
                         <p class="top-text">James</p>
                     </li>
                 </ul>
             
         </section>
     </header>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 </html>

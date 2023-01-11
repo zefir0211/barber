@@ -41,8 +41,9 @@ line-height: 1.22;
 color: #FFFCFC;
 
 text-decoration: none;
+transition: color 300ms linear;
 }
 
-.header-navigation>.header-list:hover .header-link {
-    color: blue;
+.header-navigation>.header-list:hover .header-link, .header-navigation>.header-list:focus .header-link {
+    color: tomato;
 }

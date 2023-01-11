@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/modern-normalize.css"> 
     <link rel="stylesheet" href="./css/contact-us.css"> 
     <link rel="stylesheet" href="./css/navigation.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>DAPPER BULLY</title>
 </head>
 <body>
@@ -25,13 +26,14 @@
                 </ul>
             </nav>
         </div>
+    </header>
         <section class="contact-us-section">
             <div class="contact-us-container">
                 <div class="contact-us-container-heading">
-                    <h1 class="contact-us-heading">Get in touch with Us and send <br> a Message</h1>
+                    <h1 class="contact-us-heading"  data-aos="fade-down-right">Get in touch with Us and send <br> a Message</h1>
                     <form class="contact-us-form">
                             <input class="contact-us-input" id="user-name" type="text" name="username" required="" placeholder="Full Name">
-                            <input class="contact-us-input" id="email" type="text" name="email" required="" placeholder="Email">
+                            <input class="contact-us-input" id="email" type="email" name="email" required="" placeholder="Email">
                             <textarea class="contact-us-comment" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Message"></textarea>
                     </form>
                 </div>
@@ -44,6 +46,7 @@
                         </div>
                     </div>
             </div>
+
             <footer class="footer-container">
                     <div class="contacts-container">
                         <div class="footer-contacts-container">
@@ -78,14 +81,17 @@
                     <div>
                         <h2 class="internet-heading">Connect With Us On</h2>
                         <div class="internet-conta">
-                            <a class="internet-link" href="https:instagram.com">Instagram</a>
-                            <a class="internet-link" href="https:facebook.com">Facebook</a>
-                            <a class="internet-link" href="https:twitter.com">Twitter</a>
+                            <a class="internet-link" href="/https:instagram.com"><svg class="internet-icon-svg" width="25" height="25" data-aos="fade-right"><use href="./images/symbol-defs.svg#icon-instagram"></use></svg>Instagram</a>
+                            <a class="internet-link" href="/https:facebook.com"><svg class="internet-icon-svg" width="25" height="25" data-aos="fade-right"><use href="./images/symbol-defs.svg#icon-facebook2"></use></svg>Facebook</a>
+                            <a class="internet-link" href="/https:twitter.com"><svg class="internet-icon-svg" width="25" height="25" data-aos="fade-right"><use href="./images/symbol-defs.svg#icon-twitter"></use></svg>Twitter</a>
                         </div>
                     </div> 
             </footer>
             
         </section>
-    </header>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 </html>

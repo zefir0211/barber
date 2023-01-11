@@ -50,14 +50,6 @@ li {
     cursor: pointer;
 }
 
-.team-foto {
-
-}
-
-.foto {
-
-}
-
 .top-text { 
     position: absolute;
     bottom: 0;
@@ -82,5 +74,4 @@ li {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     transition: transform 500ms linear;
-
 }

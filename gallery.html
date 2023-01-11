@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/modern-normalize.css"> 
     <link rel="stylesheet" href="./css/gallery.css"> 
     <link rel="stylesheet" href="./css/navigation.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Gallery</title>
 </head>
 <body>
@@ -28,16 +29,20 @@
         <section class="gallery-content">
             <h2 hidden>Gallary</h2>
             <div class="gallery-container">
-                <img src="./images/gallery-1.jpg" alt="" width="370" height="583">
+                <img src="./images/gallery-1.jpg" alt="" width="370" height="583" data-aos="fade-right">
                 <div class="gallery-centr-foto">
-                    <img class="foto-margin" src="./images/gallery-2.jpg" alt="" width="465" height="410">
-                    <img class="foto-margin" src="./images/gallery-4.jpg" alt="" width="465" height="410">
-                    <img class="foto-margin" src="./images/gallery-3.jpg" alt="" width="465" height="365">
-                    <img class="foto-margin" src="./images/gallery-5.jpg" alt="" width="465" height="365">
+                    <img class="foto-margin" src="./images/gallery-2.jpg" alt="" width="465" height="410" data-aos="fade-down">
+                    <img class="foto-margin" src="./images/gallery-4.jpg" alt="" width="465" height="410" data-aos="fade-down">
+                    <img class="foto-margin" src="./images/gallery-3.jpg" alt="" width="465" height="365" data-aos="fade-up">
+                    <img class="foto-margin" src="./images/gallery-5.jpg" alt="" width="465" height="365" data-aos="fade-up">
                 </div>
-                <img src="./images/gallery-6.jpg" alt="" width="370" height="583">
+                <img src="./images/gallery-6.jpg" alt="" width="370" height="583" data-aos="fade-left">
             </div>
         </section>
     </header>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 </html>
