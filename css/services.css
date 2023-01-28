@@ -7,8 +7,7 @@ li {
         background-repeat: no-repeat;
         background-size: auto;
         background-position: right;
-        max-width: 1920px;
-        min-width: 1280px;
+        width: 1920px;
         height: 1080px;
         margin: 0 auto;
 }
